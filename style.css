@@ -1,0 +1,119 @@
+/* CLASES PARA FILAS */
+.Aprobado
+{
+    background-image: linear-gradient(to right, #98ca3f, #e5ff61);
+    color: black;
+}
+
+.Perdido
+{
+    background-image: linear-gradient(to right, #C11, #911);
+    color: white;
+}
+
+/* CLASE PARA BOTÓN */
+.Oculto
+{
+    display: none;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-image: url('https://wallpaperplay.com/walls/full/3/f/1/155774.jpg');
+    background-size: cover;
+}
+
+header
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #DDD, #1c4f62);
+    border-bottom: 3px solid black;
+}
+
+.Division
+{
+    display: flex;
+}
+
+header input
+{
+    margin: 5px;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Titulo
+{
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: #1c4f62;
+    margin: 0;
+    padding-top: 10px;
+    color: #FFF;
+}
+
+.Formulario__Boton
+{
+    /* background-image: linear-gradient(to top, #98ca3f, #e5ff61); */
+    background-color: #d5e9ef;
+    font-weight: 700;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+.Tabla
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table
+{
+    margin-top: 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tabla .Tabla__Title
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Tabla .Tabla__Title td
+{
+    border-bottom: 2px solid black;
+}
+
+.Tabla .Tabla__Title td:hover
+{
+    background-image: linear-gradient(to top, #FFF , #d5e9ef );
+}
+
+.Best
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Best__Tabla
+{
+    width: 100%;
+}
+
+.Best__Tabla .Tabla__Title:nth-of-type(2)
+{
+    background-color: black;
+}

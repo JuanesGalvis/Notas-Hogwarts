@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto JavaScript</title>
+    <meta name="description" content="Reto de JavaScript para la asignatura de Semiótica informática">
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 class="Titulo">Hogwarts de Magia y Hechicería</h1>
+    <header class="Formulario">
+        <div class="Division">
+            <input type="text" name="Cedula" id="Cedula" placeholder="Cedula">
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+            <input type="date" name="Nacimiento" id="Nacimiento" placeholder="Nacimiento">
+            <input type="button" value="Validar" id="Validar" class="Formulario__Boton">
+        </div>
+        <div class="Division">
+            <input type="text" name="Nota1" id="Nota1" placeholder="Nota1">
+            <input type="text" name="Nota2" id="Nota2" placeholder="Nota2">
+            <input type="text" name="Nota3" id="Nota3" placeholder="Nota3">
+        </div>
+        <input type="button" value="Enviar" id="Enviar" class="Formulario__Boton Oculto">
+    </header>
+    <main class="Tabla">
+        <table>
+            <!-- tr = fila / td = columna -->
+            <tr class="Tabla__Title">
+                <td>Cedula</td>
+                <td>Nombre</td>
+                <td>Edad</td>
+                <td>Fecha</td>
+                <td>Nota #1</td>
+                <td>Nota #2</td>
+                <td>Nota #3</td>
+                <td>Promedio</td>
+            </tr>
+        </table>
+    </main>
+    <section class="Best">
+        <h2>Mejores Magos</h2>
+        <button class="Formulario__Boton" id="Mejores">Lumos maxima</button>
+        <table class="Best__Tabla" id="Best__Tabla">
+            <tr class="Tabla__Title">
+                <td>Estudiante</td>
+                <td>Promedio</td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+</html>
