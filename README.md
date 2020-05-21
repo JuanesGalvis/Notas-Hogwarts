@@ -5,6 +5,7 @@
 - Calcular el promedio y edad automaticamente
 - Mostrar en otra tabla el mejor y peor promedio
 - Resaltar en verde o rojo dependiendo del promedio (Aprobo >= 3.5)
+- Cedulas entre 10 y 12 caracteres
 
 ### Vista Previa
 
@@ -12,7 +13,7 @@
 
 ### GitHub Pages:
 
-
+https://juanesgalvis.github.io/Notas-Hogwarts/
 
 ## Contacto: 
 
